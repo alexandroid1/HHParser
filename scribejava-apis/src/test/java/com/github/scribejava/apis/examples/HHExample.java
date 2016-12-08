@@ -22,12 +22,12 @@ public final class HHExample {
 
     public static void main(String... args) throws IOException {
         // Replace these with your own client id and secret
-        final String clientId = "your client id";
-        final String clientSecret = "your client secret";
+        final String clientId = "LAQ0NNH2ETCQFA39G2PS5MG85OQINJ38808H1FK7FLUHIQB4EQ2U9ULKM75C9UTS";
+        final String clientSecret = "R7QHD0CNGALP8CA356F2JGOO7TDH72T56QSE4U5USGDJD2TMIQM9BOLDS094MOKF";
         final OAuth20Service service = new ServiceBuilder()
                 .apiKey(clientId)
                 .apiSecret(clientSecret)
-                .callback("http://your.site.com/callback")
+                .callback("https://hh.ru")
                 .build(HHApi.instance());
         final Scanner in = new Scanner(System.in);
 
